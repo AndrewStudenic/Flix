@@ -1,12 +1,14 @@
 //
 //  MovieGridCell.swift
-//  
+//  Flix
 //
-//  Created by ANDREW STUDENIC on 2/7/19.
+//  Created by Andrew on 2/12/19.
+//  Copyright © 2019 Andrew. All rights reserved.
 //
 
 import UIKit
 
 class MovieGridCell: UICollectionViewCell {
     
+    @IBOutlet weak var posterView: UIImageView!
 }
